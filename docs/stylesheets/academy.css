@@ -5,8 +5,9 @@
  * Mo Willems speech bubbles); this site is the grown-up room in the same
  * house. Same brand teal, same warm-cream page, same soft hill at the foot
  * of the viewport, same day/night pair, same footer pager and byline pill —
- * but the type is a publication serif (Fraunces) over a clean UI sans
- * (Inter), the reading column is essay-width, and the bounciest ornaments
+ * but the type is a New-York-Times-style editorial stack — Playfair Display
+ * headlines over a Source Serif 4 body, with Inter as sans furniture only —
+ * the reading column is essay-width, and the bounciest ornaments
  * (speech-bubble blockquotes, comic callouts) are dropped. The warmth stays;
  * the cute goes quiet.
  *
@@ -41,16 +42,21 @@
   --ac-cyan:        #00e5ff;   /* IF product cyan — dark-surface highlight */
 }
 
-/* Day scheme: warm white page, mint hill, navy ink. Matches the kids
- * day palette exactly so the two tiers read as one publication. */
+/* Day scheme: warm PAPER page, navy ink, teal/cyan accents.
+ *
+ * The earlier #fdfbf6 was so close to white the page read as blank Material
+ * light. This is a real cream/paper tone — present enough that the white
+ * cards lift off it and the page feels like paper, not a void. Cards stay
+ * near-white so panels and the byline pill have somewhere to rise to. */
 [data-md-color-scheme="default"] {
-  --ac-page:        #fdfbf6;   /* very faint cream; not pure white */
-  --ac-card:        #ffffff;
-  --ac-ink:         #1a2f4a;   /* deep navy ink — heading color */
+  --ac-page:        #f6efe0;   /* warm paper cream — actually visible */
+  --ac-card:        #fffdf8;   /* near-white card, warm — lifts off paper */
+  --ac-panel:       #fbf6ea;   /* soft tinted panel ground (hero quote, rows) */
+  --ac-ink:         #16293f;   /* deep navy ink — heading color */
   --ac-body:        #2e2c2a;
   --ac-body-soft:   #6a665e;
-  --ac-rule:        #e8e4d8;
-  --ac-tint:        #f5f0e3;
+  --ac-rule:        #e3dcc9;   /* warmer hairline so dividers actually read */
+  --ac-tint:        #efe7d3;
 
   --ac-button-primary-hover-bg: var(--ac-ink);
   --ac-pager-label: var(--ac-bridge);
@@ -112,6 +118,7 @@
 [data-md-color-scheme="academy-night"] {
   --ac-page:        #0d1322;   /* cool deep slate-indigo (was warm #0a0d14) */
   --ac-card:        #182338;   /* cooler, bluer lifted card */
+  --ac-panel:       #141d30;   /* soft tinted panel ground (hero quote, rows) */
   --ac-ink:         #eaf2f7;   /* cool near-white headings (NOT cream) */
   --ac-body:        #c2cdda;   /* cool light slate body */
   --ac-body-soft:   #7b8aa0;   /* cool muted slate */
@@ -159,30 +166,32 @@
 
 /* ---------- Typography -------------------------------------------------- */
 
-/* Body / UI: Inter. Clean, neutral, reads as "publication chrome" without
- * shouting. The kids site uses rounded Quicksand here; Inter is its grown-up
- * cousin — same calm, no bounce. */
+/* Body copy: Source Serif 4 — a clean transitional serif, the New York
+ * Times "read like a newspaper" register (Georgia is the system fallback,
+ * and is itself the literal NYT-on-web body face). Inter is demoted to
+ * FURNITURE only (kickers, meta labels, nav, footer, buttons) — it no
+ * longer sets body copy. This serif body is the single biggest move in the
+ * NYT typographic look. */
 body, .md-typeset {
-  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
   font-weight: 400;
   letter-spacing: 0;
 }
 
-/* Display / headings: Fraunces. A warm old-style serif with personality —
- * publication-grade, never stuffy. This is the adult analogue of the kids
- * site's Fredoka: it carries the warmth, in a register a parent or teacher
- * reads as "a real essay." */
+/* Headlines: Playfair Display — a high-contrast editorial serif, the free
+ * analogue of NYT's Cheltenham. Set a touch lighter and larger than a
+ * docs heading would be: NYT headlines read as elegant display, not chunky
+ * UI labels. */
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3,
 .md-typeset h4,
 .ac-display {
-  font-family: 'Fraunces', Georgia, 'Times New Roman', serif;
-  font-weight: 600;
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  font-weight: 700;
   color: var(--ac-ink);
-  letter-spacing: -0.005em;
-  line-height: 1.2;
-  font-optical-sizing: auto;
+  letter-spacing: 0;
+  line-height: 1.15;
 }
 
 .md-typeset h1 {
@@ -192,11 +201,30 @@ body, .md-typeset {
   font-weight: 600;
   line-height: 1.1;
 }
+/* H2 gets a short brand-accent rule above it — a small bit of color and
+ * structure that breaks the wall of navy headings and gives each section a
+ * visible "start here" marker. Brighter cyan-leaning teal in day, cyan in
+ * night (via --ac-bridge / the night override below). */
 .md-typeset h2 {
   font-size: 1.7rem;
-  margin-top: 2.25rem;
+  margin-top: 2.5rem;
   margin-bottom: 0.6rem;
   font-weight: 600;
+  padding-top: 1rem;
+  position: relative;
+}
+.md-typeset h2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.5rem;
+  height: 3px;
+  border-radius: 3px;
+  background: var(--ac-bridge);
+}
+[data-md-color-scheme="academy-night"] .md-typeset h2::before {
+  background: var(--ac-cyan);
 }
 .md-typeset h3 { font-size: 1.3rem; margin-top: 1.75rem; font-weight: 600; }
 .md-typeset h4 { font-size: 1.1rem; font-weight: 600; }
@@ -206,8 +234,11 @@ body, .md-typeset {
  * ribbon, with a line-height open enough to breathe but not so tall the
  * paragraphs float apart. (Earlier 0.82rem/1.8 read as sparse — a dense
  * 1,500-word essay looked thin. 0.9rem/1.66 packs the column.) */
-.md-typeset { font-size: 0.9rem; line-height: 1.66; }
-.md-typeset p { margin: 0 0 0.85em; }
+/* Source Serif 4 runs slightly small on the body and serif copy wants a
+ * touch more leading than sans — 0.92rem / 1.72 gives the comfortable
+ * newspaper-essay measure. */
+.md-typeset { font-size: 0.92rem; line-height: 1.72; }
+.md-typeset p { margin: 0 0 0.95em; }
 
 /* Layout band width. Material lays out content as a centered band that ALSO
  * contains the left nav (~12rem) and right TOC (~12rem) sidebars; the prose
@@ -244,7 +275,7 @@ body, .md-typeset {
 }
 
 /* Blockquote: a calm pull-quote, NOT a speech bubble. A teal left rule, a
- * faint tinted ground, Fraunces italic at display size. This is the single
+ * faint tinted ground, Playfair Display italic at display size. This is the single
  * largest divergence from the kids stylesheet — the kids bubble (yellow
  * fill, rounded pill, drop shadow, coral shouts) would read as juvenile in
  * an adult essay. Here a quote is a quote. */
@@ -254,7 +285,7 @@ body, .md-typeset {
   margin: 2rem 0 2rem 0.5rem;
   padding: 0.25rem 0 0.25rem 1.5rem;
   color: var(--ac-body);
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: 'Playfair Display', Georgia, serif;
   font-style: italic;
   font-size: 1.15em;
   line-height: 1.6;
@@ -274,11 +305,11 @@ body, .md-typeset {
 .md-typeset blockquote em, .md-typeset blockquote i { color: var(--ac-teal); }
 
 /* Callout: a centered pull-quote moment for an essay's load-bearing line.
- * Quieter than the kids "kids-callout" (no 2.5rem candy display) — Fraunces
- * italic, ink-colored, set off by space. */
+ * Quieter than the kids "kids-callout" (no 2.5rem candy display) — Playfair
+ * Display italic, ink-colored, set off by space. */
 .md-typeset .ac-callout,
 .ac-callout {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: 'Playfair Display', Georgia, serif;
   font-size: 1.7rem;
   font-weight: 500;
   font-style: italic;
@@ -510,7 +541,7 @@ body {
 /* Sidebar nav */
 .md-sidebar__scrollwrap { background: transparent; }
 .md-nav__title {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: 'Inter', system-ui, sans-serif;   /* furniture: sans */
   color: var(--ac-ink);
   font-weight: 600;
   background: transparent;
@@ -584,7 +615,7 @@ body {
   margin-bottom: 0.15rem;
 }
 .md-footer__title {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: 'Playfair Display', Georgia, serif;
   color: var(--ac-ink) !important;
   flex: 1;
   min-width: 0;
@@ -732,7 +763,7 @@ body {
 }
 .ac-hero-text { padding-right: 0.5rem; }
 .ac-hero-text h1 {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: 'Playfair Display', Georgia, serif;
   font-size: 2.9rem;
   font-weight: 600;
   color: var(--ac-ink);
@@ -753,6 +784,35 @@ body {
   max-height: 20rem;
   object-fit: contain;
   filter: drop-shadow(0 8px 16px rgba(var(--ac-shadow-rgb), 0.12));
+}
+
+/* When the hero "art" column is a pull-quote (no illustration yet), give it
+ * real weight so the right side isn't a floating line in empty space: a
+ * soft tinted panel with a thick brand-accent left edge and the load-bearing
+ * sentence set large in Playfair Display italic. This is the home page's visual
+ * anchor and the main bit of day-mode color. */
+.ac-hero-art blockquote {
+  border: 0;
+  border-left: 5px solid var(--ac-bridge);
+  background: var(--ac-panel);
+  border-radius: 0 14px 14px 0;
+  margin: 0;
+  padding: 1.5rem 1.75rem;
+  text-align: left;
+  font-size: 1.5em;
+  line-height: 1.35;
+  color: var(--ac-ink);
+  box-shadow: 0 2px 4px rgba(var(--ac-shadow-rgb), 0.05),
+              0 10px 24px rgba(var(--ac-shadow-rgb), 0.08);
+}
+.ac-hero-art blockquote em,
+.ac-hero-art blockquote i { color: var(--ac-bridge); }
+[data-md-color-scheme="academy-night"] .ac-hero-art blockquote {
+  border-left-color: var(--ac-cyan);
+}
+[data-md-color-scheme="academy-night"] .ac-hero-art blockquote em,
+[data-md-color-scheme="academy-night"] .ac-hero-art blockquote i {
+  color: var(--ac-cyan);
 }
 
 @media (max-width: 720px) {
@@ -821,10 +881,28 @@ article:has(.ac-hero) > .md-tags { display: none; }
  * the cover-art column (essays lead with a title and a standfirst, not a
  * picture-book cover). */
 .ac-essay-list { margin: 2rem 0 3rem; }
+
+/* Each essay is now a soft tinted card with a brand-accent left edge and a
+ * gentle hover lift, instead of a bare hairline-separated row. Gives the
+ * (currently short) essay list real presence and a clear click target, and
+ * adds another panel of warmth/color to the page. */
 .ac-essay-row {
-  padding: 1.5rem 0;
+  background: var(--ac-panel);
+  border-left: 4px solid var(--ac-bridge);
+  border-radius: 0 14px 14px 0;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 2px 4px rgba(var(--ac-shadow-rgb), 0.04),
+              0 6px 16px rgba(var(--ac-shadow-rgb), 0.07);
+  transition: transform 140ms ease, box-shadow 140ms ease;
 }
-.ac-essay-row + .ac-essay-row { border-top: 1px solid var(--ac-rule); }
+.ac-essay-row + .ac-essay-row { margin-top: 1rem; }
+.ac-essay-row:hover,
+.ac-essay-row:focus-within {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(var(--ac-shadow-rgb), 0.07),
+              0 10px 24px rgba(var(--ac-shadow-rgb), 0.12);
+}
+[data-md-color-scheme="academy-night"] .ac-essay-row { border-left-color: var(--ac-cyan); }
 .ac-essay-row h3 {
   margin-top: 0;
   margin-bottom: 0.4rem;
@@ -835,17 +913,20 @@ article:has(.ac-hero) > .md-tags { display: none; }
   color: var(--ac-ink) !important;
 }
 .ac-essay-row h3 a:hover,
-.ac-essay-row h3 a:focus { color: var(--ac-teal) !important; }
+.ac-essay-row h3 a:focus { color: var(--ac-bridge) !important; }
+[data-md-color-scheme="academy-night"] .ac-essay-row h3 a:hover,
+[data-md-color-scheme="academy-night"] .ac-essay-row h3 a:focus { color: var(--ac-cyan) !important; }
 .ac-essay-row p { margin: 0.4rem 0 0; color: var(--ac-body-soft); }
 .ac-essay-meta {
   font-family: 'Inter', sans-serif;
   font-size: 0.7rem;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--ac-pager-label);
+  letter-spacing: 0.1em;
+  color: var(--ac-bridge);
   margin-bottom: 0.35rem;
 }
+[data-md-color-scheme="academy-night"] .ac-essay-meta { color: var(--ac-cyan); }
 
 /* ---------- Print-friendly --------------------------------------------- */
 

@@ -70,8 +70,9 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to night
-  # Fonts are set by docs/stylesheets/academy.css (Inter body, Fraunces
-  # display, JetBrains Mono code + lockup) and loaded via overrides/main.html.
+  # Fonts are set by docs/stylesheets/academy.css (NYT-style editorial stack:
+  # Source Serif 4 body, Playfair Display headlines, Inter for furniture,
+  # JetBrains Mono code + lockup) and loaded via overrides/main.html.
   # Disabled here so Material does not also load Roboto from Google.
   font: false
 
