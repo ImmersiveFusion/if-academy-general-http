@@ -32,6 +32,11 @@ theme:
   # in overrides/main.html. favicon assets land in docs/ with the brand
   # artwork; this points at the same favicon.ico filename the kids tier uses.
   favicon: favicon.ico
+  # Header logo (top-left of every page). Without this, Material renders
+  # its default fallback SVG. Points at the brand favicon-96x96.png the
+  # kids tier also uses for its header logo; founder may switch this to
+  # a tier-specific lockup later during the visual identity pass.
+  logo: favicon-96x96.png
   features:
     # SP-071 shared core
     - navigation.tabs
