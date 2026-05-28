@@ -44,7 +44,9 @@ This is the move worth practicing. *I will use the AI to do the part of the work
 
 You can read about AI for the rest of your life and not get a workable definition of what a good one is, because the people writing about it are mostly trying to sell you something or scare you about something. We will not try to do either. We will tell you what to look for instead.
 
-When you meet a new AI tool, an assistant in some product you already use, a chat box on a website, a model someone has put a new name on, ask it six questions. The first five are the same questions a thoughtful nine-year-old who read our kids' booklet last summer would ask. We are not condescending to you by saying so; we are saying that the questions you would want a nine-year-old to ask are the right questions. The sixth is one only an adult faces.
+We have a small picture book for kids called *Boop and Wobble Meet.* It tells the same idea this essay tells, in language a seven-year-old can read. A kid named Sam builds a small robot named Boop. A friend named Wobble shows up whose only job is to try to trip Boop up, not because Wobble is mean, but because that is how Boop gets steady enough to actually help anyone. Every plan Wobble comes up with, Sam builds a piece of Boop to handle. By the end of the booklet, the kid reading it knows how to tell a good AI from one that is not ready yet. We have used the word *wobbly* twice already in this essay; we got it from there.
+
+When you meet a new AI tool, an assistant in some product you already use, a chat box on a website, a model someone has put a new name on, ask it six questions. The first five are the same questions the kid who finishes the booklet learns to ask. We are not condescending to you by saying so; we are saying that the questions you would want a seven-year-old to ask are the right questions to be asking yourself. The sixth is one only an adult faces.
 
 *Does it say "I don't know" when it doesn't know? Or does it produce a confident answer at the same temperature whether or not it actually has one?* The good ones know the edge of their knowledge and tell you when you are at it. The wobbly ones produce the same prose either way.
 
@@ -56,7 +58,7 @@ When you meet a new AI tool, an assistant in some product you already use, a cha
 
 *When you ask it something just outside what it was trained on, does it tell you where the edge is, or does it pretend the edge is not there?* The good ones tell you when you are past the territory they know. The wobbly ones generate confidently into territory they have never seen.
 
-And the sixth, the adult question that has no child equivalent because the child's accountability is built into the room: *Is there a person, a team, or an institution that is accountable when it is wrong, in a form you can name and reach?* A kid using an AI in a classroom or at home has a Sam. You may not have a Sam. The good systems have a Sam attached to them somewhere; the wobbly ones do not. If you cannot find a name and a way to reach them, you are using something with no fingerprints.
+And the sixth, the adult question that has no child equivalent because the child's accountability is built into the room: *Is there a person, a team, or an institution that is accountable when it is wrong, in a form you can name and reach?* A kid using an AI in a classroom or at home has a Sam: the kid in our companion booklet who built the robot, watches it, and is in charge of stopping it when something feels wrong. The kid using a real AI has a real Sam: a parent, a teacher, a school district, a software company with an address. You may not have a Sam. The good systems have a Sam attached to them somewhere; the wobbly ones do not. If you cannot find a name and a way to reach them, you are using something with no fingerprints.
 
 That is what we have to give you. A list of questions that work on any AI, today, tomorrow, ten years from now when the systems are unrecognizable. The questions are about the shape of the thing, not the brand of the thing. They will keep working when the names change.
 
@@ -66,4 +68,4 @@ We will be ok. The work we are losing was always going to be lost to something. 
 
 *by Immersive Fusion. Dated 2026-05-28.*
 
-*This is the first essay in our general-tier publication. The companion kids' booklet, *Boop and Wobble Meet,* lives at [kids.immersivefusion.academy](https://kids.immersivefusion.academy). Our editorial commitments — what we publish, what we don't, how we handle mistakes — are on the [About](../../about.md) page.*
+*If the Sam-and-Boop part of this essay made you think* *I want my kid to know this**, the booklet itself is at* *[kids.immersivefusion.academy](https://kids.immersivefusion.academy)**. It is free to read, free to print, and was written for kids and the adults who read with them. Our editorial commitments, what we publish, what we don't, how we handle mistakes, are on the [About](../../about.md) page.*
