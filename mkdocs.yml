@@ -17,7 +17,7 @@ edit_uri: edit/main/docs
 # docs/stylesheets/academy.css (sibling of the kids tier's footer pill).
 # HTML is permitted here. Byline + license link + About link live here;
 # Material appends its own "Made with Material for MkDocs" line below.
-copyright: '<em>by Immersive Fusion.</em> Published under <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license noopener">Creative Commons BY-NC 4.0</a> <span class="md-copyright__sep" aria-hidden="true">&middot;</span> <a href="/about/">About</a> <span class="md-copyright__sep" aria-hidden="true">&middot;</span> For a younger reader: <a href="https://kids.immersivefusion.academy">kids.immersivefusion.academy</a>'
+copyright: '<em>by Immersive Fusion.</em> Published under <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license noopener">Creative Commons BY-NC 4.0</a> <span class="md-copyright__sep" aria-hidden="true">&middot;</span> <a href="/about/">About</a><br><span class="ac-sister-link">For a younger reader: <a href="https://kids.immersivefusion.academy">kids.immersivefusion.academy</a></span>'
 
 watch:
   - docs

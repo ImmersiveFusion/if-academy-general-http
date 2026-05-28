@@ -4,4 +4,6 @@
 title: Academy
 arrange:
   - index.md
+  - essays
   - about.md
+  - commitments.md
