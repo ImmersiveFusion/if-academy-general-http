@@ -12,15 +12,26 @@ repo_name: if-academy-general-http
 repo_url: https://github.com/ImmersiveFusion/if-academy-general-http
 edit_uri: edit/main/docs
 
-# Copyright
-copyright: 'Copyright &copy; 2026 <a href="https://www.immersivefusion.com">Immersive Fusion LLC</a>. Published under <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International</a>.'
+# Copyright / byline. Rendered by Material's partials/copyright.html inside
+# the footer-meta block, then re-styled as a soft byline pill in
+# docs/stylesheets/academy.css (sibling of the kids tier's footer pill).
+# HTML is permitted here. Byline + license link + About link live here;
+# Material appends its own "Made with Material for MkDocs" line below.
+copyright: '<em>by Immersive Fusion.</em> Published under <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license noopener">Creative Commons BY-NC 4.0</a> <span class="md-copyright__sep" aria-hidden="true">&middot;</span> <a href="/about/">About</a> <span class="md-copyright__sep" aria-hidden="true">&middot;</span> For a younger reader: <a href="https://kids.immersivefusion.academy">kids.immersivefusion.academy</a>'
 
 watch:
   - docs
+  - overrides
 
 # Configuration
 theme:
   name: material
+  custom_dir: overrides
+  # Browser-tab favicon. The full icon family (apple-touch-icon,
+  # web-app-manifest, theme-color meta) is wired via the {% block extrahead %}
+  # in overrides/main.html. favicon assets land in docs/ with the brand
+  # artwork; this points at the same favicon.ico filename the kids tier uses.
+  favicon: favicon.ico
   features:
     # SP-071 shared core
     - navigation.tabs
@@ -28,6 +39,7 @@ theme:
     - navigation.sections
     - navigation.top
     - navigation.tracking
+    - navigation.footer    # next/prev pager cards under each essay
     - toc.follow
     - search.suggest
     - search.highlight
@@ -35,22 +47,31 @@ theme:
     - content.tabs.link
     # NOT navigation.indexes (section-index plugin owns section landing pages; see SP-071 baseline)
   palette:
-    # Dark mode first (default)
-    - scheme: slate
+    # Two schemes, sibling of the kids tier. Dark mode first (default) for
+    # parity with the IF product docs (docs.immersivefusion.com is dark-first).
+    # "academy-night" = deep indigo sky, lifted warm-dark cards, cyan accents
+    # nodding to the product brand. Light mode = warm-cream publication page,
+    # soft hill, navy ink. Both schemes' colors are defined in academy.css;
+    # primary/accent here are nominal (academy.css overrides the md-* vars).
+    - scheme: academy-night
       primary: black
       accent: cyan
       toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+        icon: material/weather-sunny
+        name: Switch to day
     - scheme: default
-      primary: deep purple
-      accent: deep purple
+      primary: white
+      accent: cyan
       toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-  font:
-    text: Roboto
-    code: Roboto Mono
+        icon: material/weather-night
+        name: Switch to night
+  # Fonts are set by docs/stylesheets/academy.css (Inter body, Fraunces
+  # display, JetBrains Mono code + lockup) and loaded via overrides/main.html.
+  # Disabled here so Material does not also load Roboto from Google.
+  font: false
+
+extra_css:
+  - stylesheets/academy.css
 
 # Plugins: SP-071 shared baseline, identical set, identical order.
 plugins:
