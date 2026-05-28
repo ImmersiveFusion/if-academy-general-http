@@ -42,4 +42,4 @@ For a reader who wants to engage more closely, this means three practical things
 
 We put it there because writing meant for a thoughtful general reader should be easy for that reader to actually reach: easy to find, easy to share, easy to mark up.
 
-*— by Immersive Fusion, 2026-05-28*
+*by Immersive Fusion, 2026-05-28*

@@ -60,4 +60,4 @@ The voice of this publication is calm. The voice is not cautious. Calm is what w
 
 If any of these commitments is ever broken, a paid product placement, a lead-capture form, a piece killed because it would not have driven a sale, that breach will be visible to anyone who reads carefully. We have built the publication so that the breach would show. If you ever notice one, write to us at [academy@immersivefusion.com](mailto:academy@immersivefusion.com). We will answer.
 
-*— by Immersive Fusion, 2026-05-25*
+*by Immersive Fusion, 2026-05-25*

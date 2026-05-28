@@ -14,7 +14,7 @@ hide:
 
 # A small publication about AI, for anyone.
 
-You live with AI now, whether or not you work in software. We write here to help you think about it carefully — not how to build it, but how to use it well and keep your own judgment while you do.
+You live with AI now, whether or not you work in software. We write here to help you think about it carefully, not how to build it, but how to use it well and keep your own judgment while you do.
 
 [Read “We will be ok” →](essays/we-will-be-ok/index.md){ .ac-button .ac-button--primary }
 
@@ -42,7 +42,7 @@ Essays, as they are ready. No schedule. There is one today; more will follow whe
 
 ### [We will be ok](essays/we-will-be-ok/index.md)
 
-The premise the whole publication works from: AI is a partner that can make you better, not a replacement and not a threat — useful and fallible in exactly the way a partner is.
+The premise the whole publication works from: AI is a partner that can make you better, not a replacement and not a threat, useful and fallible in exactly the way a partner is.
 
 </div>
 
