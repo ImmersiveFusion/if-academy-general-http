@@ -14,7 +14,7 @@ We are an observability company. We watch software systems for a living. The wor
 
 Here is what we have learned.
 
-## What we refuse to say
+---
 
 *You will lose your job.* We refuse this. We refuse the loud version and the calm-and-credentialed version that names both poles and then leans on the fear pole by the weight of which paragraph gets the longer one. Calm warning is still warning.
 
@@ -24,7 +24,7 @@ Here is what we have learned.
 
 And there is a fourth refusal, the one that is most tempting to commit and hardest to see when you are committing it: *we are the calm ones.* The moment a publication starts using its own register as its credential, the publication has joined the genres it was supposed to refuse. The calm is a means, not a credential. We will fail at this sometimes. When we do, you will know, because the piece will sound like one of the other voices, just dressed up.
 
-## What partner actually means
+---
 
 Take a small example. You have a lab result you do not fully understand. The number is just outside the reference range, with a note that says *clinical correlation recommended.* You have an appointment in nine days. You do the thing you would have done five years ago and the thing you would have done last week: you ask the internet.
 
@@ -40,7 +40,7 @@ That is what a partner is. The AI brought something to the table that you did no
 
 This is the move worth practicing. *I will use the AI to do the part of the work it can actually do, and then I will do the part only I can do.* It sounds small. It is small. It is also almost the entire skill.
 
-## What changes for you
+---
 
 You can read about AI for the rest of your life and not get a workable definition of what a good one is, because the people writing about it are mostly trying to sell you something or scare you about something. We will not try to do either. We will tell you what to look for instead.
 
@@ -66,6 +66,6 @@ We will be ok. The work we are losing was always going to be lost to something. 
 
 ---
 
-*by Immersive Fusion. Dated 2026-05-28.*
+*by Immersive Fusion. Essays. Dated 2026-05-28.*
 
 *If the Sam-and-Boop part of this essay made you think* *I want my kid to know this**, the booklet itself is at* *[kids.immersivefusion.academy](https://kids.immersivefusion.academy)**. It is free to read, free to print, and was written for kids and the adults who read with them. Our editorial commitments, what we publish, what we don't, how we handle mistakes, are on the [About](../../about.md) page.*
