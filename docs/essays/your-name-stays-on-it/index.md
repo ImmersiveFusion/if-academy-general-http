@@ -92,7 +92,7 @@ The work that is left is the work that was always going to be yours. The partner
 
 So the partner can be good, and you can be glad of it, and none of that is the thing that keeps you safe. The thing that keeps you safe is that you stayed the firefighter. You kept your own read. You checked the call against the room. You decided. Your name stays on it, and because it does, the work stays yours to do well.
 
-We will be ok. Not because the partner is good. Because we stayed in the suit.
+We will be ok. Not because the partner is good. Because we never stopped being the one who decides.
 
 ---
 
