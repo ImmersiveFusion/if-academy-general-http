@@ -14,7 +14,7 @@ So we started this publication.
 
 ## What we do here
 
-We write essays about AI, for adults who live alongside it without working in software. You can find what's published in [Essays](essays/we-will-be-ok/index.md). More will follow when there is something true enough to say.
+We write essays about AI, for adults who live alongside it without working in software. You can find what's published in [Essays](essays/index.md). More will follow when there is something true enough to say.
 
 The voice we aim for is calm without being cautious. We name things by their real names. We don't pretend a hard idea is simpler than it is. We don't tell you the world is ending, and we don't tell you it's about to be saved. Both are easier to write than what we are trying to write.
 
@@ -28,7 +28,7 @@ Our [full editorial commitments](commitments.md), what we publish, what we don't
 
 ## A younger reader in your life
 
-We also publish a kids' tier at [kids.immersivefusion.academy](https://kids.immersivefusion.academy). The same ideas, told for a younger reader, with a small robot named Boop and a teal blob named Wobble who tries to trip him up. If you have a kid in your life who is going to grow up with AI, the booklet there was written for them, and for you to read with them.
+We also publish a kids' tier at [kids.immersivefusion.academy](https://kids.immersivefusion.academy). The same ideas, told for a younger reader, with a small robot named Mosey and a teal blob named Wobble who tries to trip him up. If you have a kid in your life who is going to grow up with AI, the booklet there was written for them, and for you to read with them.
 
 ## Where this site lives
 
