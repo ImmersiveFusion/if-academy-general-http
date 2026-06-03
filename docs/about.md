@@ -14,7 +14,7 @@ So we started this publication.
 
 ## What we do here
 
-We write essays about AI, for adults who live alongside it without working in software. You can find what's published in [Essays](essays/we-will-be-ok/index.md). More will follow when there is something true enough to say.
+We write essays about AI, for adults who live alongside it without working in software. You can find what's published in [Essays](essays/index.md). More will follow when there is something true enough to say.
 
 The voice we aim for is calm without being cautious. We name things by their real names. We don't pretend a hard idea is simpler than it is. We don't tell you the world is ending, and we don't tell you it's about to be saved. Both are easier to write than what we are trying to write.
 

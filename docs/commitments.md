@@ -48,6 +48,10 @@ Every booklet and essay we publish is licensed [Creative Commons BY-NC 4.0](http
 
 We are not building a curriculum. We are not partnering with a curriculum project that would require us to change what we publish to fit their sequence. The materials are here to be used. They are not here to be co-branded.
 
+## We write this with AI, and we say so
+
+This publication is written with AI assistance. A person reads every line, decides what stays and what gets cut, and is accountable for what ships. We do not put a "written by humans" badge on these pages, because that would not be true, and we do not hide the AI involvement, because that would be worse. How the work is made, and who stands behind it, is written down on its own page: [How this is made](how-this-is-made.md). An error that came from the AI and an error that came from a person are corrected identically, because the responsibility for both is ours.
+
 ## We will get things wrong
 
 When we do, we'll say so on the same site, dated, and we will not delete the original. Some of our answers will turn out to be wrong too. We would rather be wrong on the record than safe in private.

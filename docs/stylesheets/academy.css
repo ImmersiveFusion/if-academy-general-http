@@ -533,10 +533,9 @@ body {
 .md-header__button,
 .md-header__source { color: var(--ac-ink); }
 
-/* Tabs: the navigation.tabs feature is left on in mkdocs.yml for SP-071
- * baseline parity, but a single-section essay publication doesn't need the
- * storefront tab strip. Hide it the way the kids site does. */
-.md-tabs { display: none; }
+/* Tabs are disabled at the config level (navigation.tabs removed from
+ * mkdocs.yml), same as the kids tier, so there is no .md-tabs strip to hide
+ * here and no risk of the strip swallowing the Home nav entry. */
 
 /* Sidebar nav */
 .md-sidebar__scrollwrap { background: transparent; }
