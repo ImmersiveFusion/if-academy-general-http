@@ -60,7 +60,7 @@ A good partner is not enough. When AI does its part well, the harder work is sta
 
 ## A younger reader
 
-We also publish a kids' tier at [kids.immersivefusion.academy](https://kids.immersivefusion.academy). The same ideas, told for a younger reader, with a small robot named Boop and a teal blob named Wobble.
+We also publish a kids' tier at [kids.immersivefusion.academy](https://kids.immersivefusion.academy). The same ideas, told for a younger reader, with a small robot named Mosey and a teal blob named Wobble.
 
 ## What you will not find here
 
