@@ -28,7 +28,7 @@ Our [full editorial commitments](commitments.md), what we publish, what we don't
 
 ## A younger reader in your life
 
-We also publish a kids' tier at [kids.immersivefusion.academy](https://kids.immersivefusion.academy). The same ideas, told for a younger reader, with a small robot named Boop and a teal blob named Wobble who tries to trip him up. If you have a kid in your life who is going to grow up with AI, the booklet there was written for them, and for you to read with them.
+We also publish a kids' tier at [kids.immersivefusion.academy](https://kids.immersivefusion.academy). The same ideas, told for a younger reader, with a small robot named Mosey and a teal blob named Wobble who tries to trip him up. If you have a kid in your life who is going to grow up with AI, the booklet there was written for them, and for you to read with them.
 
 ## Where this site lives
 
