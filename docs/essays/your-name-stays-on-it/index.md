@@ -56,7 +56,7 @@ You keep your own read, and you make checking it cheap. You cross the call again
 
 None of this is comfortable, and it is not what anyone wants to do. Keeping your own read is slower; you will be tempted to drop it exactly when you are busiest, which is exactly when dropping it costs the most. And doing all of it does not make you immune. People who do everything right still get pulled by a confident wrong call now and then; the pull is real and it is partly in the wiring. The work does not make you safe. It only reduces the pull, and it is the only thing that does. Leaning on the radio because it is usually right is the thing that fails.
 
-There is a move buried in those two exchanges, and you can use it anywhere. *Proceed with caution* and *prioritize* are both vague, and you decomposed each one without noticing. *Caution* became the temperature of the door, the color of the smoke, the give in the floor. *Prioritize* became who, by which route, on whose authority. When a word in front of you is carrying too much, you break it into the parts that matter for the next thirty seconds. That is the same thing our first essay, *We will be ok*, did with the word *safe* at a kitchen table. The stakes here are louder. The move is identical.
+There is a move buried in those two exchanges, and you can use it anywhere. *Proceed with caution* and *prioritize* are both vague, and you decomposed each one without noticing. *Caution* became the temperature of the door, the color of the smoke, the give in the floor. *Prioritize* became who, by which route, on whose authority. When a word in front of you is carrying too much, you break it into the parts that matter for the next thirty seconds. That is the same thing our first essay, [*We will be ok*](../we-will-be-ok/index.md), did with the word *safe* at a kitchen table. The stakes here are louder. The move is identical.
 
 ---
 
@@ -72,15 +72,15 @@ A manager has two finalists for one job. The hiring tool ranks them:
 
 > Candidate A scores higher on fit. Recommend advancing Candidate A.
 
-The tool surfaced a ranking, and stopped. It did not make the call or send the email. Here is where its knowledge ends: the tool scored the transcript of the interview, the words on the page. It was not in the room. It did not see that Candidate B was shaking because she had driven three hours and her car died in the lot, and that she steadied and answered well anyway. The manager was in the room. Whose name goes on the offer, and whose gets the hard phone call, is the manager's, because the manager is the one who will answer for the hire in a year. The ranking was the tool's. The choice is hers.
+The tool surfaced a ranking, and stopped. It did not make the call or send the email. The tool scored the transcript of the interview, the words on the page, and that is all it had. It was not in the room. It did not see that Candidate B was shaking because she had driven three hours and her car died in the lot, and that she steadied and answered well anyway. The manager was in the room. Whose name goes on the offer, and whose gets the hard phone call, is the manager's, because the manager is the one who will answer for the hire in a year. The tool can rank what it read. Only the person who was in the room can choose.
 
 A father is making dinner when his ten-year-old looks up from a tablet and asks if the AI is telling the truth about something for a school project. He looks over. The screen says:
 
 > Here is a summary you can use.
 
-The machine surfaced an answer, and stopped. It did not decide whether his son should hand it in. Here is where its knowledge ends: the tablet knows what text on this topic usually looks like, and that is all it knows. It does not know what the teacher assigned, or that his son already half-understands this and is about to be talked out of the right answer by a confident paragraph. The father reads it. Some is fine. One part is confidently wrong. He decides what to say, because he is the one raising the boy, and the tablet is not in the room where that happens. The summary was the machine's. The boy is his.
+The machine surfaced an answer, and stopped. It did not decide whether his son should hand it in. What the tablet knows is what text on this topic usually looks like, and that is the whole of it. It does not know what the teacher assigned, or that his son already half-understands this and is about to be talked out of the right answer by a confident paragraph. The father reads it. Some is fine. One part is confidently wrong. And *true* is the same kind of word as *caution* on the radio: too big to act on whole. So he breaks it down with his son, the way you would break down anything carrying too much. Is it true that this happened, is it true that it matters, is it true the way your teacher means it. He decides what to say, because he is the one raising the boy, and the tablet is not in the room where that happens. A summary is a thing a machine can make. A son is not.
 
-In every one of those, the machine surfaced what was salient and then stopped at the line where the call became a person's. And in every one, a person kept their own read, checked it against the room they were standing in, and decided. The shape is older than AI and bigger than the suit. There is a version of it small enough for a child, too, told at the height of a kitchen table.
+In every one of those, the machine surfaced what was salient and then stopped at the line where the call became a person's. And in every one, a person kept their own read, checked it against the room they were standing in, and decided. The shape is older than AI and bigger than the suit. It is small enough for a child, too. If the father at the dinner table is the scene you recognized, the thing you can hand to the kid in your life is a booklet called [*Boop and Wobble Meet*](https://kids.immersivefusion.academy), which teaches the same shape at the height of a kitchen table. It gives a child one word for the confident paragraph that was wrong: *wobbly*. The tablet was wobbly; the boy and his father were steady. That is the whole of it, and a six-year-old can carry it. It is free to read and free to print.
 
 Now look at the suit without the partner.
 
@@ -90,12 +90,12 @@ With your partner, you are not replaced. You are the firefighter you already wer
 
 The work that is left is the work that was always going to be yours. The partner makes the work you do lighter. It does not do the work for you. And it does not, ever, take the call off your hands. When the report is written and the building is cold, the name on the decision is yours, not the radio's. That was true before the radio and it is true with it.
 
-So the partner can be good, and you can be glad of it, and none of that is the thing that keeps you safe. The thing that keeps you safe is that you stayed the firefighter. You kept your own read. You checked the call against the room. You decided. Your name stays on it, and because it does, the work stays yours to do well.
+So the partner can be good, and you can be glad of it, and none of that is the thing that keeps you safe. The thing that keeps you safe is that you stayed the firefighter. You kept your own read. You checked the call against the room. You decided.
 
-We will be ok. Not because the partner is good. Because we never stopped being the one who decides.
+We will be ok. Not because the partner is good, and not because we are. Because we never stopped being the one who decides, and the deciding is the work, and the work stays yours to do well. Your name stays on it.
 
 ---
 
 *by Immersive Fusion. Essays. Dated 2026-06-01.*
 
-*That kitchen-table version is a booklet called* Boop and Wobble Meet*, at [kids.immersivefusion.academy](https://kids.immersivefusion.academy). It is free to read, free to print, and was written for kids and the adults who read with them. Our editorial commitments, what we publish, what we don't, how we handle mistakes, are on the [About](../../about.md) page.*
+*Our editorial commitments, what we publish, what we don't, how we handle mistakes, are on the [About](../../about.md) page.*
