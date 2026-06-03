@@ -1,5 +1,5 @@
 ---
-title: Immersive Fusion Academy
+title: Home
 diataxis: explanation
 tags: [explanation, landing]
 hide:
@@ -16,7 +16,7 @@ hide:
 
 You live with AI now, whether or not you work in software. We write here to help you think about it carefully, not how to build it, but how to use it well and keep your own judgment while you do.
 
-[Read “We will be ok” →](essays/we-will-be-ok/index.md){ .ac-button .ac-button--primary }
+[Start with We will be ok →](essays/we-will-be-ok/index.md){ .ac-button .ac-button--primary }
 
 </div>
 
