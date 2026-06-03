@@ -56,6 +56,16 @@ A good partner is not enough. When AI does its part well, the harder work is sta
 
 </div>
 
+<div class="ac-essay-row" markdown>
+
+<p class="ac-essay-meta">Essay</p>
+
+### [Borrowed judgment](essays/borrowed-judgment/index.md)
+
+What happens when the tool does the work before you ever learn it. On the judgment that never forms when AI is right from the first day, and why no metric will warn you it is missing.
+
+</div>
+
 </div>
 
 ## A younger reader

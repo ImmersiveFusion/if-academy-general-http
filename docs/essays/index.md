@@ -33,6 +33,16 @@ A firefighter, a radio, and a partner that knows where its knowledge ends. What 
 
 </div>
 
+<div class="ac-essay-row" markdown>
+
+<p class="ac-essay-meta">Dated 2026-06-03</p>
+
+### [Borrowed judgment](borrowed-judgment/index.md)
+
+A capable tool, new territory, and the judgment that never forms because the work was done for you from the first day. The quiet failure no metric turns red for, and the work you have to go build on purpose.
+
+</div>
+
 </div>
 
 *More will follow when there is something true enough to say.*
