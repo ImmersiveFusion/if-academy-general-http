@@ -44,11 +44,9 @@ So the question stops being *is the partner good* and becomes *am I still doing 
 
 Two potential victims is morally heavy. The partner knows it is heavy, because the partner stops there. The partner stops there because the choice of who, in what order, by which route, is one a human has to bear. We are going to honor the weight by not unpacking it. The firefighter prioritizes. The radio is silent for the duration of the prioritization. That silence is the partner doing its job.
 
-So look at what the partner cannot do. The partner does not know what floor 2 looks like when you reach it. The partner does not know what room 323 will look like by the time the door opens. The partner is not in the room. The partner is reading sensors, floor plans, acoustic patterns. The partner's knowledge ends at the door of your senses. That is the named, structural failure of a partner under load. Not *the partner can be wrong.* Not *the partner is fallible.* The partner's knowledge ends at the door of your senses. Past that door, the work that is left is the work that was always going to be yours.
+So look at what the partner cannot do. It does not know what floor 2 looks like when you reach it, or what room 323 will look like by the time the door opens. It is not in the room. It is reading sensors, floor plans, acoustic patterns. Its knowledge ends at the door of your senses. That is the structural limit, and it is more specific than *the partner can be wrong* or *the partner is fallible*: past that door, what is left is the work that was always going to be yours.
 
-That door is the thing the rest of this essay is about.
-
-So what does the work look like, on your side of the door? It is not vigilance. You cannot keep watch on a radio for hours and catch the one wrong call by staring harder; attention does not work that way, and anyone who has done a long shift knows it. The work is more particular than that.
+So what does that work look like, on your side of the door? It is not vigilance. You cannot keep watch on a radio for hours and catch the one wrong call by staring harder; attention does not work that way, and anyone who has done a long shift knows it. The work is more particular than that.
 
 You stay a producer, not a watcher. A watcher waits for the call and reacts to it. A producer is already working the problem: before the radio surfaces room 323, you have your own picture of the floor, where the stairs are, where the heat is, what the building is telling you. The radio that hands you the answer before you have formed your own is the most dangerous radio, not because it is wrong more often, but because it quietly takes the picture-forming away from you, and the picture-forming is the job.
 
@@ -56,7 +54,7 @@ You keep your own read, and you make checking it cheap. You cross the call again
 
 None of this is comfortable, and it is not what anyone wants to do. Keeping your own read is slower; you will be tempted to drop it exactly when you are busiest, which is exactly when dropping it costs the most. And doing all of it does not make you immune. People who do everything right still get pulled by a confident wrong call now and then; the pull is real and it is partly in the wiring. The work does not make you safe. It only reduces the pull, and it is the only thing that does. Leaning on the radio because it is usually right is the thing that fails.
 
-There is a move buried in those two exchanges, and you can use it anywhere. *Proceed with caution* and *prioritize* are both vague, and you decomposed each one without noticing. *Caution* became the temperature of the door, the color of the smoke, the give in the floor. *Prioritize* became who, by which route, on whose authority. When a word in front of you is carrying too much, you break it into the parts that matter for the next thirty seconds. That is the same thing our first essay, [*We will be ok*](../we-will-be-ok/index.md), did with the word *safe* at a kitchen table. The stakes here are louder. The move is identical.
+There is a move buried in those two exchanges, and you can use it anywhere. *Proceed with caution* and *prioritize* are both vague, and you decomposed each one without noticing. *Caution* became the temperature of the door, the color of the smoke, the give in the floor. *Prioritize* became who, by which route, on whose authority. When a word in front of you is carrying too much, you break it into the parts that matter for the next thirty seconds. It is the same move [*We will be ok*](../we-will-be-ok/index.md) made with the word *safe* at a kitchen table, only louder here.
 
 ---
 
@@ -88,7 +86,7 @@ Without your partner, you can still clear the building. You are still the firefi
 
 With your partner, you are not replaced. You are the firefighter you already were, the one who decides the prioritization at room 323. You are just better. Faster to the door. Sharper at the call. More present to the person on the floor.
 
-The work that is left is the work that was always going to be yours. The partner makes the work you do lighter. It does not do the work for you. And it does not, ever, take the call off your hands. When the report is written and the building is cold, the name on the decision is yours, not the radio's. That was true before the radio and it is true with it.
+What is left is yours, the way it always was. The partner makes the job lighter; it does not do it for you, and it does not, ever, take the call off your hands. When the report is written and the building is cold, the name on the decision is yours, not the radio's. That was true before the radio and it is true with it.
 
 So the partner can be good, and you can be glad of it, and none of that is the thing that keeps you safe. The thing that keeps you safe is that you stayed the firefighter. You kept your own read. You checked the call against the room. You decided.
 
